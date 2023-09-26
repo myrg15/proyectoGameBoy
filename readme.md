@@ -30,5 +30,5 @@ Botones Select y Start
 
 ---
 ### Directorio
-Puedes descargar el repositorio o visualizar el proyecto haciendo click aquí:https://myrg15.github.io/proyectoGameBoy/ 
+Puedes descargar el repositorio o visualizar el proyecto haciendo click aquí:https://myrg15.github.io/proyectoGameBoy/
 
