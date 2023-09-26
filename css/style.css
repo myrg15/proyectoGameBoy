@@ -46,17 +46,17 @@ body {
     left: 5.6em;
 }
 .animeAmigosMovimiento {
-    background-image: url(/imag/animeAmigosMovimiento.gif);   
+    background-image: url('/imag/animeAmigosMovimiento.gif');   
 }
 .animeVariosJuntos{
-    background-image: url(/imag/animeVariosJuntos.jpg);   
+    background-image: url('/imag/animeVariosJuntos.jpg');   
 }
 .animeUnaSola {
-    background-image: url(/imag/animeUnaSola.jpg);    
+    background-image: url('/imag/animeUnaSola.jpg');    
 }
 
 .pokemonAnimado{
-    background-image: url(/imag/pokemonAnimado.gif);
+    background-image: url('/imag/pokemonAnimado.gif');
 }
 
 *,
