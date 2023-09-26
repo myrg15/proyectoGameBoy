@@ -1,0 +1,381 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+.container-main {
+    width: 23em;
+    height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: fuchsia;
+    border-radius: 2em;
+    position: absolute;
+}
+
+#screen {/*segunda pantalla fondo negro*/
+    width: 17em;
+    height: 21em;
+    background-color: black;
+    margin-bottom: 15em;
+    border-radius: 0em 0em 3em 0em;
+    position: absolute;
+    border: solid 2px gray;
+    transform: rotate(90deg);
+    top: 5px;
+    box-shadow: 0em 0.1em 1em rgba(0, 0, 0, 0.7);
+}
+
+.screen2 { /*pantalla con imagen representacion apagada*/
+    height: 10em;
+    width: 13em;
+    background-color:gainsboro;
+    /*background-image: url('');*/
+    position: absolute;
+    margin-bottom: 15em;
+    background-size: cover;
+    background-position-y: -5px;
+    border: solid 4px white;
+    top: 3.9em;
+    left: 5.6em;
+}
+
+.animeAmigosMovimiento {
+    
+    background-image: url('/imag/animeAmigosMovimiento.gif');
+    
+}
+
+.animeVariosJuntos{
+    
+    background-image: url('/imag/animeVariosJuntos.jpg');
+    
+}
+
+.animeUnaSola {
+    
+    background-image: url('/imag/animeUnaSola.jpg');
+    
+}
+
+.pokemonAnimado{
+
+    background-image: url('/imag/pokemonAnimado.gif');
+ 
+}
+
+/* Teclas movimientos*/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+    width: 3em;
+    height: 3em;
+    position: absolute;
+}
+
+.capa {
+    position: absolute;
+    height: 9em;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: drop-shadow(3px 3px 3px #777);
+}
+
+.centro {
+    z-index: 2;
+    top: 3em;
+}
+
+.circulo-centro {
+    position: static;
+    background: #777;
+    border-radius: 100%;
+    margin: auto;
+    width: 75%;
+    height: 75%;
+    z-index: 3;
+}
+
+.up,
+.right,
+.down,
+.left,
+
+.centro {
+    background: #000;
+    padding: 12px;
+    border: 1px solid #222;
+    margin-top: 100px;
+    scale: .5;
+}
+
+.right {
+    top: 2em;
+    left: -2.25em;
+}
+
+.left {
+    top: 2em;
+    right: 5.7em;
+}
+
+.down {
+    top: 3.7em;
+    left: -4em;
+}
+
+.up {
+
+    left: -4em;
+    top: 0.3em;
+
+}
+
+.centro {
+    left: -4em;
+    top: 2em;
+
+}
+
+.triangulo {
+    /*direccion superior*/
+    position: absolute;
+    bottom: 16px;
+    right: 6em;
+    margin: auto;
+    width: 65%;
+    height: 65%;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    border-bottom: solid 20px rgb(44, 44, 44);
+    top: 10em;
+    background-color: black;
+}
+
+.centro{
+    position: absolute;
+    bottom: 25em;
+    width: 3.5em;
+    height: 3.5em;
+    /*right: 30em;*/
+    left: -5.7em;
+    margin: auto;
+    top: 11.9em;
+    background-color:black;
+    
+}
+
+.circulo-centro{
+background-color: rgb(44, 44, 44);
+
+}
+
+.triangulo-derec {
+    /*direccion derecha*/
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    margin: auto;
+    width: 65%;
+    height: 65%;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    border-bottom: solid 20px rgb(44, 44, 44);
+    transform: rotate(90deg);
+    background:black;
+    align-items: center;
+    top: 12em;
+    right: em;
+    left: -7em;
+}
+
+.triangulo-izq {
+    /*direccion izquierda*/
+    position: absolute;
+    bottom: 8px;
+    left: 1px;
+    margin: auto;
+    width: 65%;
+    height: 65%;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    border-bottom: solid 20px rgb(44, 44, 44);
+    transform: rotate(-90deg);
+    background-color: black;
+    top:12em;
+    right:1em;
+    left: -14em;
+}
+
+/* flechas selectora*/
+
+.down-triangle {
+    /*selector inferior*/
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    margin: auto;
+    width: 65%;
+    height: 65%;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    border-bottom: solid 20px rgb(44, 44, 44);
+    transform: rotate(180deg);
+    background-color: black;
+    top: 13.8em;
+    right: 6em;
+}
+
+.button1 {
+    /*saltar B*/
+    height: 3em;
+    width: 3em;
+    background-color: rgb(44, 44, 44);
+    border-radius: 50%;
+    border: solid 1px rgb(109, 109, 109);
+    top: 23.5em;
+    right: 5.5em;
+    box-shadow: 0em 0.1em 1em rgba(0, 0, 0, 0.7);
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button2 {
+    /*saltar A*/
+    height: 3em;
+    width: 3em;
+    background-color: rgb(44, 44, 44);
+    border-radius: 50%;
+    border: solid 1px rgb(109, 109, 109);
+    top: 22em;
+    right: 2em;
+    box-shadow: 0em 0.1em 1em rgba(0, 0, 0, 0.7);
+    text-align:center;
+    color: black;
+    cursor: pointer;
+}
+
+.buttonSelect { /*tramo inferior izquierdo */
+    position: absolute;
+    height: 10px;
+    width: 40px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+    border: solid 1px black;
+    box-shadow: 0em 0.1em 1em rgba(20, 20, 20, 0.6);
+    top: 29em;
+    left: 9em;
+    cursor: pointer;
+    text-align: center;
+}
+
+.buttonStart { /*tramo inferior derecho */
+    position: absolute;
+    height: 10px;
+    width: 40px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+    border: solid 1px black;
+    box-shadow: 0em 0.1em 1em rgba(0, 0, 0, 0.6);
+    top: 29em;
+    left: 13em;
+    cursor: pointer;
+    text-align: center;
+}
+
+.subtitulo {
+    width: 15em;
+    height: 3em;
+    text-align: center;
+    font-size: x-large;
+    background: linear-gradient(to right, white, white,white, white, white, rgb(220, 238, 130), blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    right: 1.7em;
+    /*background-image: url('/imag/game_boy_color_logo.webp');*/
+}
+
+.subtitulo2{
+    width: 15em;
+    height: 3em;
+    text-align:end;
+    font-size: x-large;
+    position: relative;
+    background: linear-gradient(to right, red,red,purple,purple,yellow,blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    right: 2.4em;
+    /*background-image: url('/imag/game_boy_color_logo.webp');*/
+}
+
+.on { /*power on*/
+    cursor: pointer;
+    width: 15px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgb(204, 6, 6);
+    box-shadow: 0em 0.1em 1em rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: left;
+    line-height: 60px;
+    top: 7.34em;
+    right: 25.4em;
+    font-size: small
+}
+
+.halfCircle {
+    height: 17px;
+    width: 30px;
+    color: white;
+    top: 95px;
+    left: 35px;
+}
+
+.power{
+    background-color: gainsboro;    
+}
+
+.select{
+    position: absolute;
+    height: 10px;
+    width: 40px;
+    border: solid 1px
+    box-shadow: 0em 0.1em 1em rgba(20, 20, 20, 0.6);
+    top:29.7em;
+    left: 9em;
+    text-align:center;
+}
+.start{
+    position: absolute;
+    height: 10px;
+    width: 40px;
+    border: solid 1px
+    box-shadow: 0em 0.1em 1em rgba(20, 20, 20, 0.6);
+    top:29.7em;
+    left: 13.2em;
+    text-align:center;
+}

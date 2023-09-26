@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consola</title>
+    <link href="/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+        <!--Contenerdor principal-->
+    <div class="container-main">
+            <!--pantalla-->       
+        <div class="black" id="screen"></div> 
+        
+        <div class="bordePantalla"></div> <!--borde panta interna-->
+        
+        <div class="subtitulo">GAME BOY</div>
+        
+        <div class="subtitulo2">COLOR</div>
+        
+        <div class="halfCircle">◗◗◗</div>
+        
+        <div class= "on" onclick="powerOn()">POWER</div>
+
+        <div id="screenInter" class="screen2"></div> <!--panta interna representa imagen de apagado-->
+       
+        <div class="select">Select</div>
+        
+        <div class="start">Start</div>
+
+        <!--Teclas movimientos-->
+
+        <div class="capa">     
+            <div class="centro">
+                <div class="circulo-centro"></div>
+            </div>
+
+            <div class="hacia-arriba">
+                <div class="triangulo"></div>
+            </div>
+
+            <div class="hacia-derec">
+                <div class="triangulo-derec"></div>
+            </div>
+           
+            <div class="down-direction">
+                <div class="down-triangle"></div>
+            </div>
+
+            <div class="hacia-izq">
+                <div class="triangulo-izq"></div>
+            </div>
+        </div>
+            <!--botones de acción-->
+        <div class="button1" onclick="clickbuttonB()">B</div>
+        <div class="button2" onclick="clickbuttonA()">A</div>
+            <!--Selectores-->
+        <div class="buttonSelect" onclick="selectA()"></div>
+        <div class="buttonStart" onclick="startA()"></div>
+
+    </div>
+    <script src="/js/main.js"></script>
+
+</body>
+</html>
