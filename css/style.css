@@ -1,5 +1,4 @@
 body {
-
     margin: 0;
     padding: 0;
     background-color: chocolate;
@@ -9,9 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-
 }
-
 .container-main {
     width: 23em;
     height: 35em;
@@ -23,8 +20,7 @@ body {
     border-radius: 2em;
     position: absolute;
 }
-
-#screen {/*segunda pantalla fondo negro*/
+#screen {
     width: 17em;
     height: 21em;
     background-color: black;
@@ -36,7 +32,6 @@ body {
     top: 5px;
     box-shadow: 0em 0.1em 1em rgba(0, 0, 0, 0.7);
 }
-
 .screen2 { /*pantalla con imagen representacion apagada*/
     height: 10em;
     width: 13em;
@@ -50,39 +45,25 @@ body {
     top: 3.9em;
     left: 5.6em;
 }
-
 .animeAmigosMovimiento {
-    
-    background-image: url('/imag/animeAmigosMovimiento.gif');
-    
+    background-image: url('/imag/animeAmigosMovimiento.gif');   
 }
-
 .animeVariosJuntos{
-    
-    background-image: url('/imag/animeVariosJuntos.jpg');
-    
+    background-image: url('/imag/animeVariosJuntos.jpg');   
 }
-
 .animeUnaSola {
-    
-    background-image: url('/imag/animeUnaSola.jpg');
-    
+    background-image: url('/imag/animeUnaSola.jpg');    
 }
 
 .pokemonAnimado{
-
     background-image: url('/imag/pokemonAnimado.gif');
- 
 }
-
-/* Teclas movimientos*/
 
 *,
 *:before,
 *:after {
     box-sizing: border-box;
 }
-
 div {
     padding: 0;
     margin: 0;
@@ -90,7 +71,6 @@ div {
     height: 3em;
     position: absolute;
 }
-
 .capa {
     position: absolute;
     height: 9em;
@@ -101,12 +81,10 @@ div {
     right: 0;
     filter: drop-shadow(3px 3px 3px #777);
 }
-
 .centro {
     z-index: 2;
     top: 3em;
 }
-
 .circulo-centro {
     position: static;
     background: #777;
@@ -116,7 +94,6 @@ div {
     height: 75%;
     z-index: 3;
 }
-
 .up,
 .right,
 .down,
@@ -129,37 +106,27 @@ div {
     margin-top: 100px;
     scale: .5;
 }
-
 .right {
     top: 2em;
     left: -2.25em;
 }
-
 .left {
     top: 2em;
     right: 5.7em;
 }
-
 .down {
     top: 3.7em;
     left: -4em;
 }
-
 .up {
-
     left: -4em;
     top: 0.3em;
-
 }
-
 .centro {
     left: -4em;
     top: 2em;
-
 }
-
 .triangulo {
-    /*direccion superior*/
     position: absolute;
     bottom: 16px;
     right: 6em;
@@ -172,27 +139,20 @@ div {
     top: 10em;
     background-color: black;
 }
-
 .centro{
     position: absolute;
     bottom: 25em;
     width: 3.5em;
     height: 3.5em;
-    /*right: 30em;*/
     left: -5.7em;
     margin: auto;
     top: 11.9em;
-    background-color:black;
-    
+    background-color:black;   
 }
-
 .circulo-centro{
 background-color: rgb(44, 44, 44);
-
 }
-
 .triangulo-derec {
-    /*direccion derecha*/
     position: absolute;
     bottom: 8px;
     right: 0px;
@@ -209,9 +169,7 @@ background-color: rgb(44, 44, 44);
     right: em;
     left: -7em;
 }
-
 .triangulo-izq {
-    /*direccion izquierda*/
     position: absolute;
     bottom: 8px;
     left: 1px;
@@ -227,11 +185,7 @@ background-color: rgb(44, 44, 44);
     right:1em;
     left: -14em;
 }
-
-/* flechas selectora*/
-
 .down-triangle {
-    /*selector inferior*/
     position: absolute;
     bottom: 0px;
     right: 20px;
@@ -246,9 +200,7 @@ background-color: rgb(44, 44, 44);
     top: 13.8em;
     right: 6em;
 }
-
 .button1 {
-    /*saltar B*/
     height: 3em;
     width: 3em;
     background-color: rgb(44, 44, 44);
@@ -261,9 +213,7 @@ background-color: rgb(44, 44, 44);
     text-align: center;
     cursor: pointer;
 }
-
 .button2 {
-    /*saltar A*/
     height: 3em;
     width: 3em;
     background-color: rgb(44, 44, 44);
@@ -276,8 +226,7 @@ background-color: rgb(44, 44, 44);
     color: black;
     cursor: pointer;
 }
-
-.buttonSelect { /*tramo inferior izquierdo */
+.buttonSelect { 
     position: absolute;
     height: 10px;
     width: 40px;
@@ -290,8 +239,7 @@ background-color: rgb(44, 44, 44);
     cursor: pointer;
     text-align: center;
 }
-
-.buttonStart { /*tramo inferior derecho */
+.buttonStart { 
     position: absolute;
     height: 10px;
     width: 40px;
@@ -304,7 +252,6 @@ background-color: rgb(44, 44, 44);
     cursor: pointer;
     text-align: center;
 }
-
 .subtitulo {
     width: 15em;
     height: 3em;
@@ -315,9 +262,7 @@ background-color: rgb(44, 44, 44);
     -webkit-background-clip: text;
     color: transparent;
     right: 1.7em;
-    /*background-image: url('/imag/game_boy_color_logo.webp');*/
 }
-
 .subtitulo2{
     width: 15em;
     height: 3em;
@@ -329,10 +274,8 @@ background-color: rgb(44, 44, 44);
     -webkit-background-clip: text;
     color: transparent;
     right: 2.4em;
-    /*background-image: url('/imag/game_boy_color_logo.webp');*/
 }
-
-.on { /*power on*/
+.on {
     cursor: pointer;
     width: 15px;
     height: 16px;
@@ -346,7 +289,6 @@ background-color: rgb(44, 44, 44);
     right: 25.4em;
     font-size: small
 }
-
 .halfCircle {
     height: 17px;
     width: 30px;
@@ -354,11 +296,9 @@ background-color: rgb(44, 44, 44);
     top: 95px;
     left: 35px;
 }
-
 .power{
     background-color: gainsboro;    
 }
-
 .select{
     position: absolute;
     height: 10px;
