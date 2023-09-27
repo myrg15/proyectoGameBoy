@@ -5,20 +5,21 @@ function powerOn() {
 
 function clickbuttonB() {
     let screen = document.getElementById("screenInter");
-    screen.classList.add("animeAmigosMovimiento");
+    screen.style.backgroundImage = "url('/imag/animeAmigosMovimiento.gif')"
+
 }
 
 function clickbuttonA() {
     let screen = document.getElementById("screenInter");
-    screen.classList.add("animeVariosJuntos");
+    screen.style.backgroundImage = "url('/imag/animeVariosJuntos.jpg')"
 }
 
-function selectA() {
+const selectA = () => {
     let screen = document.getElementById("screenInter");
-    screen.classList.add("animeUnaSola");
+    screen.style.backgroundImage = "url('/imag/animeUnaSola.jpg')"
 }
 
 function startA() {
     let screen = document.getElementById("screenInter");
-    screen.classList.add("pokemonAnimado");
+    screen.style.backgroundImage = "url('/imag/pokemonAnimado.gif')"
 }
